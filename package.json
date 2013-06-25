@@ -1,0 +1,9 @@
+{
+    "name": "MsOfficeWordHTMLWriter",
+    "description": "MsOfficeWordHTMLWriter",
+    "keywords": ["MsOfficeWordHTMLWriter"],
+    "version": "0.1.0",
+    "author": "koma",
+    "main": "./lib/MsOfficeWordHTMLWriter.js",
+    "dependencies": {}
+}
