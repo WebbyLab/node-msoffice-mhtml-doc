@@ -9,14 +9,14 @@
         "url": "http://zeus.webbylab.com:8002/koorchik/js-msoffice-word-html-writer.git"
     },
     "scripts": {
-        "test": "nodeunit test/"
+        "test": "nodejs test/testrunner.js"
     },
     "dependencies": {
         "mime": "*",
         "mimelib": "*"
     },
     "devDependencies": {
-        "nodeunit": "*"
+        "qunit": "*"
     },
     "keywords": [ "mht", "mhtml", "doc", "ms word" ],
     "readmeFilename": "README.md",
