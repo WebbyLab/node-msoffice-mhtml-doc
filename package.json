@@ -3,7 +3,7 @@
     "description": "Create doc files in MHTML format",
     "version": "0.1.0",
     "author": "koma",
-    "main": "./lib/MsOfficeWordHTMLWriter.js",
+    "main": "index.js",
     "repository": {
         "type": "git",
         "url": "http://zeus.webbylab.com:8002/koorchik/js-msoffice-word-html-writer.git"
