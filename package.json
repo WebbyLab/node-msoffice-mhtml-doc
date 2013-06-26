@@ -1,9 +1,25 @@
 {
     "name": "MsOfficeWordHTMLWriter",
-    "description": "MsOfficeWordHTMLWriter",
-    "keywords": ["MsOfficeWordHTMLWriter"],
+    "description": "Create doc files in MHTML format",
     "version": "0.1.0",
     "author": "koma",
     "main": "./lib/MsOfficeWordHTMLWriter.js",
-    "dependencies": {}
+    "repository": {
+        "type": "git",
+        "url": "http://zeus.webbylab.com:8002/koorchik/js-msoffice-word-html-writer.git"
+    },
+    "scripts": {
+        "test": "nodeunit test/"
+    },
+    "dependencies": {
+        "mime": "*",
+        "mimelib": "*"
+    },
+    "devDependencies": {
+        "nodeunit": "*"
+    },
+    "keywords": [ "mht", "mhtml", "doc", "ms word" ],
+    "readmeFilename": "README.md",
+    "_id": "MsOfficeWordHTMLWriter@0.1",
+    "_from": "MsOfficeWordHTMLWriter@*"
 }
