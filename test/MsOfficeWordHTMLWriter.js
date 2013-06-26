@@ -1,4 +1,4 @@
-var MsOfficeWordHTMLWriter = require( __dirname + '/../lib/MsOfficeWordHTMLWriter.js');
+var MsOfficeWordHTMLWriter = require( __dirname + '/../lib/MsOfficeWordHTMLWriter' );
 
 var doc = new MsOfficeWordHTMLWriter({
     title: "Demo",
